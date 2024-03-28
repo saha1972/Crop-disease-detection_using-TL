@@ -27,7 +27,7 @@ The images come from the Makerere Fall Armyworm Crop Challenge data on Zindi. ht
 
 To explore this project download the 'images.zip' file containing the images dataset and the two csv file 'Train.csv' and 'Test.csv'. All these files can be loaded in the web site or on the github repos.
 
-The Machine Learning model notebook *Crop_disease_TF_1_2c.ipynb* can be loaded on the github repos. 
+The Machine Learning model notebook *Crop_disease_TF_1.3a.ipynb* can be loaded on the github repos. 
 
 All dependencies to install are listed in requirements.txt file.
 
@@ -39,7 +39,7 @@ All dependencies to install are listed in requirements.txt file.
     'Image_id' : the number of the image attached to the Train of Test dataset
     'Label' : Only for the Train.csv file ; O = no infection and 1 = infected 
 
- * *Crop_disease_TF_1_2c.ipynb* : 
+ * *Crop_disease_TF_1.3a.ipynb* : 
         This notebook conducts data analysis and model training using Tensor Flow platform and Keras API.
 
 ### Authors & Motivations <a name="authors"></a>
@@ -52,4 +52,4 @@ The members of the project group are :
  - Guillaume NONY - Data scientist
 
 ### How to run the project : 
-Open *Crop_disease_TF_1_2c.ipynb*  in your favorite IDE. Google Collab can be a good alternative as it offers free access to computing resources, including GPUs and TPUs.
+Open *Crop_disease_TF_1.3a.ipynb*  in your favorite IDE. Google Collab can be a good alternative as it offers free access to computing resources, including GPUs and TPUs.
