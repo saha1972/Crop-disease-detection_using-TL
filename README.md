@@ -1,5 +1,3 @@
-# Crop-disease-detection_using-TL
-Makerere Fall Armyworm Crop: disease detection using Transfer Learning  
 ## CROP DISEASE : Machine Learning Model to determine from a photo if corn plant is affected by armyworm.
 
 ### Table of Contents
@@ -20,6 +18,7 @@ The model will be based on the image classification method, a domain of the Comp
 We will use a specific deep learning technique called **Transfer Learning** , where a pre-trained model is used as a basis and then adapted to successfully perform a new task (in ourcase classifying the image of a maize plant).
 
 Then, on top of Transfer Learning, **Fine-tuning** is an approach where the model output is changed to fit the new task and train only the output model. While Transfer Learning involves freezing the pre-trained model’s weights and only training the new layers, Fine-tuning takes it a step further by allowing the pre-trained layers to be updated. 
+The originality of the project lies in the fact that we are going to study transfer learning using the following three class modes : sparse (multi-label, 1D), binary (0 or 1, 1D) or categorical (multi-class, one-hot encoded 2D). The fine-tuning part shall use the best class_mode only Will the 'binary' class_mode classifier show the best performance ?
 
 The images come from the Makerere Fall Armyworm Crop Challenge data on Zindi. https://zindi.africa/competitions/makerere-fall-armyworm-crop-challenge/data
 
@@ -27,20 +26,22 @@ The images come from the Makerere Fall Armyworm Crop Challenge data on Zindi. ht
 
 To explore this project download the 'images.zip' file containing the images dataset and the two csv file 'Train.csv' and 'Test.csv'. All these files can be loaded in the web site or on the github repos.
 
-The Machine Learning model notebook *Crop_disease_TF_1.3a.ipynb* can be loaded on the github repos. 
+The Machine Learning model notebook *Crop_disease_TF_1.4.ipynb* can be loaded on the github repos. 
 
 All dependencies to install are listed in requirements.txt file.
 
 ### Files Descriptions <a name="files"></a>
 
- * images.zip : contains 2699 images showing photos of leaves of contaminated and uncontaminated maize plants. Images are in jpg format
+ * images.zip : contains 2699 images showing photos of leaves of contaminated and uncontaminated maize plants. Images are in jpg format.
     
  * Train.csv and Test.csv : 
-    'Image_id' : the number of the image attached to the Train of Test dataset
-    'Label' : Only for the Train.csv file ; O = no infection and 1 = infected 
+    'Image_id' : the number of the image attached to the Train of Test dataset.
+    'Label' : Only for the Train.csv file ; O = no infection and 1 = infected.
 
- * *Crop_disease_TF_1.3a.ipynb* : 
+ * *Crop_disease_TF_1.4.ipynb* : 
         This notebook conducts data analysis and model training using Tensor Flow platform and Keras API.
+
+* requirements_COLAB.txt : file to install dependencies obtain from Google Collab platform.
 
 ### Authors & Motivations <a name="authors"></a>
 
@@ -52,4 +53,4 @@ The members of the project group are :
  - Guillaume NONY - Data scientist
 
 ### How to run the project : 
-Open *Crop_disease_TF_1.3a.ipynb*  in your favorite IDE. Google Collab can be a good alternative as it offers free access to computing resources, including GPUs and TPUs.
+Open *Crop_disease_TF_1.4.ipynb*  in your favorite IDE. Google Collab can be a good alternative as it offers free access to computing resources, including GPUs and TPUs.
