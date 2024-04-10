@@ -6,7 +6,7 @@
 2. [Installation](#install)
 3. [Files Descriptions](#files)
 4. [Authors and motivations](#authors)
-
+5. [How tu run the project](#run)
 
 
 ### What is the project ? <a name="projet"></a>
@@ -52,5 +52,6 @@ The members of the project group are :
  - Saïd HAMDI - Data scientist
  - Guillaume NONY - Data scientist
 
-### How to run the project : 
+### How to run the project <a name="run"></a>
+
 Open *Crop_disease_TF_1.4.ipynb*  in your favorite IDE. Google Collab can be a good alternative as it offers free access to computing resources, including GPUs and TPUs.
