@@ -28,7 +28,9 @@ To explore this project download the 'images.zip' file containing the images dat
 
 The Machine Learning model notebook *Crop_disease_TF_1.4.ipynb* can be loaded on the github repos. 
 
-All dependencies to install are listed in requirements.txt file.
+The Python version used in COLAB was: 3.10.12
+
+All dependencies to install are listed in info_req_for_COLAB.txt file (code originally made in Google COLAB). For local installation on your machine, please check your Python versions and the related dependencies versions.
 
 ### Files Descriptions <a name="files"></a>
 
