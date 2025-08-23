@@ -41,7 +41,8 @@ All dependencies to install are listed in requirements.txt file.
  * *Crop_disease_TF_1.4.ipynb* : 
         This notebook conducts data analysis and model training using Tensor Flow platform and Keras API.
 
-* requirements_COLAB.txt : file to install dependencies obtain from Google Collab platform.
+* info_req_for_COLAB.txt (was 'requirements_COLAB.txt') : file obtained from COLAB to install dependencies (only) in Google Colab platform.
+* !IMPORTANT NOTE: some packages (eg: future) might need to be upgraded/changed according to your python version to avoid vulnerabilities  
 
 ### Authors & Motivations <a name="authors"></a>
 
